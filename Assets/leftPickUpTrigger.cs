@@ -2,6 +2,10 @@
 using System.Collections;
 using System.Collections.Generic;
 
+/**
+ * leftPickUpTrigger lets the Player know if there is something it can pick up on its left side
+ */
+
 public class leftPickUpTrigger : MonoBehaviour {
 
 	private List<Collider2D> TriggerList = new List<Collider2D>();
