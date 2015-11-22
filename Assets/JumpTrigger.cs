@@ -1,6 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+/**
+ * JumpTrigger sets booleans that let the player jump or not depending on the current location
+ */
+
 public class JumpTrigger : MonoBehaviour {
 
 	void OnTriggerEnter2D (Collider2D other) {
